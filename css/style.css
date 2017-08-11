@@ -1,0 +1,33 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  text-align: center;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+li {
+  display: inline-block;
+  width: 45%;
+  height: 150px;
+  padding: 5px 0px 0px 10px;
+  font-size: 20px;
+}
+
+#submit-btn {
+  background: blue;
+  border: none;
+  color: white;
+  position: reletive;
+  margin: 10px;
+}
+#submit-btn:hover {
+  cursor: pointer;
+}
